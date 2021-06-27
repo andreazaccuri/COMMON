@@ -1,15 +1,11 @@
-const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    freeMode: true,
-    spaceBetween: 0,
-    speed: 400,
-    mousewheel: {
-    invert: false,
-  },
-  slidesPerView: 'auto',
-  loopedSlides: 2,
+const swiper = new Swiper('.slider', {
+	slidesPerView: 'auto',
+	spaceBetween: 0,
+	freeMode: true,
+	loop: true,
+	mousewheel: {
+		invert: false,
+	},
 });
 
 /* const swiperHandler = new Swiper('.swiper-container', {});
@@ -20,4 +16,3 @@ swiperHandler.on('click', function () {
 }) 
 
 */
-
